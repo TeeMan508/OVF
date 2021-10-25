@@ -25,7 +25,7 @@ def EulerNeYav(a, b):
 
 
 def EulerYav(F, G, a, b):
-    N = 100
+    N = 10
     u = [u0]
     v = [v0]
     t = np.linspace(a, b, N + 1)
