@@ -2,7 +2,7 @@ import numpy as np
 from math import *
 import matplotlib.pyplot as plt
 
-N = 100
+N = 500
 
 
 def U(arg):
