@@ -1,8 +1,7 @@
-import numpy as np
 from math import *
 import matplotlib.pyplot as plt
 
-a0, a1, w0, w1, N = 1, 10, 5.1, 25, 100
+a0, a1, w0, w1, N = 1, 100, 5.1, 25, 100
 period = 2*pi
 t = [period*i/N for i in range(0, N+1)]
 
