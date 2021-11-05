@@ -4,8 +4,8 @@ import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
 N = 100
 const = 0.05
-L = 1
-t = np.linspace(0, 0.01, N)
+L = 10
+t = np.linspace(0, 0.1, N)
 x = y = np.linspace(-L, L, N)
 
 
